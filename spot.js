@@ -12,11 +12,11 @@
         document.getElementById('go').removeEventListener('click', start);
         promise.then(() => engine.toText('L'))
         .then(() => engine.shake())
-        .then(() => engine.toText('唐'))
+        .then(() => engine.toText('O'))
         .then(() => engine.shake())
-        .then(() => engine.toText('章'))
+        .then(() => engine.toText('V'))
         .then(() => engine.shake())
-        .then(() => engine.toText('梅'))
+        .then(() => engine.toText('E'))
         .then(() => engine.shake())
         .then(() => engine.clear())
         .then(() => document.getElementById('go').addEventListener('click', start));
