@@ -9,7 +9,7 @@
     document.getElementById('go').addEventListener('click', start);
     
     function start() {
-        document.getElementById('go').removeEventListener('click', start);
+//         document.getElementById('go').removeEventListener('click', start);
         promise.then(() => engine.toText('唐'))
         .then(() => engine.shake())
         .then(() => engine.toText('章'))
